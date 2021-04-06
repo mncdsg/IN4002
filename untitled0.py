@@ -23,7 +23,7 @@ def elimnan(lista):
             listaaux.append(lista[i])
     return(listaaux)
             
-
+#El archivo .xlsx debe estar en la misma carpeta del .py
 df = pd.read_excel('Retroalimentación Presentaciones Sección 2 (respuestas).xlsx', 
                     sheet_name='Respuestas de formulario 1')
 
